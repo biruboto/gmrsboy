@@ -1,6 +1,6 @@
 (() => {
   "use strict";
-  const palettes = { standard: "Classic Green", pocket: "Pocket" };
+  const palettes = { standard: "Classic", pocket: "Pocket", dark: "Dark" };
   const chooser = document.querySelector(".palette-control");
   const links = [...document.querySelectorAll("[data-screen]")];
   const descriptions = new Map(links.map(link => [link, link.querySelector("img").alt.replace(/^Classic Green /, "")]));

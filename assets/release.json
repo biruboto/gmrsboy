@@ -1,22 +1,14 @@
 {
-  "release": "1.0",
+  "release": "1.1",
   "baseFirmware": "250317",
   "hardware": "Original TIDRADIO TD-H3",
   "releases": [
     {
-      "id": "standard",
-      "name": "Classic Green",
-      "version": "GMRS_BOYv1.0D",
-      "sha256": "2a0700e0dbf67335ad79e81f178bc5d772ae3633b0a2001faab8793aa194f403",
-      "file": "GMRS_BOYv1.0D.BIN",
-      "bytes": 63486
-    },
-    {
-      "id": "pocket",
-      "name": "Pocket",
-      "version": "GMRS_BOYv1.0M",
-      "sha256": "0ba15377a21bc2d7d47ed84b0633141634fd0b87f65aa5fb02d4cb5da872132b",
-      "file": "GMRS_BOYv1.0M.BIN",
+      "id": "unified",
+      "name": "GMRS Boy",
+      "version": "GMRS_BOYv1.1",
+      "sha256": "3d1cb2fd2a066b6bba1f48f3915b9778356b751d2e166fbd906b4ce44ff4cef7",
+      "file": "GMRS_BOYv1.1.BIN",
       "bytes": 63486
     }
   ],
@@ -30,6 +22,12 @@
     "weather",
     "am"
   ],
+  "palettes": [
+    "Classic",
+    "Pocket",
+    "Dark"
+  ],
+  "paletteMenu": 57,
   "previewNote": "Firmware-rendered sample states, not hardware photographs. Actual panel colors vary.",
   "sampleStates": {
     "main": "VFO A up-marker",

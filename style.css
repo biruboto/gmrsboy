@@ -50,6 +50,7 @@ h1>span{flex-shrink:0;white-space:nowrap}
 .swatch{display:inline-block;width:16px;height:16px;flex:0 0 16px;border:2px solid var(--shadow)}
 .swatch-green{background:#9bbc0f}
 .swatch-pocket{background:#aea691}
+.swatch-dark{background:#808080}
 .gallery-meta{font-size:16px;color:var(--muted);display:flex;align-items:center;gap:12px}
 .screen-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 figure{min-width:0}
@@ -80,7 +81,7 @@ h2{font-size:32px;line-height:1.25}
 h3{font-size:16px;line-height:1.5;color:var(--ink)}
 .feature-grid p{font-size:16px;line-height:1.5;color:var(--muted);margin-top:8px}
 .downloads-section{padding-block:24px}
-.download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:16px}
+.download-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:16px}
 .download-card{border:2px solid var(--line);border-top:4px solid var(--green);padding:20px;min-width:0}
 .download-card[data-build=pocket]{border-top-color:var(--pocket)}
 .download-heading{display:flex;align-items:center;gap:12px;min-height:32px;flex-wrap:wrap}
@@ -144,3 +145,7 @@ body.preview-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media(max-width:600px){nav a[href="#screens"]{display:none}}
 @media(pointer:coarse){.more-screens summary,.checksum summary{min-height:44px}}
+@media(max-width:900px){h1{font-size:48px}}
+@media(max-width:700px){h1{font-size:32px}}
+@media(max-width:480px){h1{gap:6px}.palette-control button{font-size:8px;gap:8px}.palette-control .swatch{width:12px;height:12px;flex-basis:12px}}
+@media(max-width:389px){h1{font-size:24px}}
