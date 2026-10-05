@@ -60,7 +60,7 @@ figure{min-width:0}
 figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:16px;padding-top:8px;line-height:1.5}
 figcaption .icon{width:16px;height:16px;flex-basis:16px;color:var(--muted)}
 .gallery-footer{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;position:relative;margin-top:12px;flex-wrap:wrap}
-.gallery-footer>p{font-size:8px;line-height:12px;color:var(--muted)}
+.gallery-footer>p{width:100%;font-size:8px;line-height:12px;color:var(--muted)}
 .more-screens{display:contents}
 .more-screens summary{display:inline-flex;align-items:center;gap:8px;font-size:16px;cursor:pointer;list-style:none;min-height:24px;color:var(--green)}
 .more-screens summary::-webkit-details-marker{display:none}
