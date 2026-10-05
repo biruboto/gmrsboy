@@ -28,7 +28,9 @@ nav .icon{width:16px;height:16px;flex-basis:16px}
 .intro{padding-top:24px;padding-bottom:24px}
 .eyebrow{display:flex;align-items:center;gap:8px;font-size:16px;color:var(--muted);line-height:1.5}
 .release-dot{width:8px;height:8px;background:var(--ink);display:inline-block;flex:0 0 8px}
-h1{display:flex;align-items:baseline;gap:16px;margin-top:12px;font-family:"Precinct 0",monospace;font-weight:400;font-size:64px;line-height:1.125;color:var(--green);letter-spacing:0}
+h1{display:flex;flex-wrap:wrap;align-items:baseline;gap:16px;margin-top:12px;font-family:"Precinct 0",monospace;font-weight:400;font-size:64px;line-height:1.125;color:var(--green);letter-spacing:0}
+.title-radio{width:1em;height:1em;flex:0 0 1em;align-self:baseline}
+h1>span{flex-shrink:0;white-space:nowrap}
 .title-boy{color:var(--ink)}
 /* Precinct's M fills its cell; add the same one-pixel gutter as other letters. */
 .title-m{display:inline-block;margin-right:.125em}
