@@ -60,7 +60,7 @@ figure{min-width:0}
 figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:16px;padding-top:8px;line-height:1.5}
 figcaption .icon{width:16px;height:16px;flex-basis:16px;color:var(--muted)}
 .gallery-footer{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;position:relative;margin-top:12px;flex-wrap:wrap}
-.gallery-footer>p{font-size:16px;color:var(--muted)}
+.gallery-footer>p{font-size:8px;line-height:12px;color:var(--muted)}
 .more-screens{display:contents}
 .more-screens summary{display:inline-flex;align-items:center;gap:8px;font-size:16px;cursor:pointer;list-style:none;min-height:24px;color:var(--green)}
 .more-screens summary::-webkit-details-marker{display:none}
@@ -119,7 +119,7 @@ h3{font-size:16px;line-height:1.5;color:var(--ink)}
 .site-footer>div{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .site-footer .brand{font-size:16px;color:var(--green)}
 .site-footer span,.site-footer p{font-size:16px;color:var(--muted)}
-.site-footer p{text-align:right}
+.site-footer p{font-size:8px;line-height:12px;text-align:right}
 .skip-link{position:absolute;left:12px;top:-100px;z-index:10;background:var(--green);color:var(--paper);padding:12px}
 .skip-link:focus{top:12px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
