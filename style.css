@@ -59,6 +59,11 @@ figure{min-width:0}
 .screen-link:hover{outline:2px solid var(--green);outline-offset:4px}
 figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:16px;padding-top:8px;line-height:1.5}
 figcaption .icon{width:16px;height:16px;flex-basis:16px;color:var(--muted)}
+.boot-controls{display:flex;align-items:center;gap:4px}
+.boot-toggle{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;flex:0 0 44px;border:0;background:none;color:var(--muted);cursor:pointer}
+.boot-toggle:hover{color:var(--green)}
+.boot-toggle[hidden],.boot-toggle .icon[hidden]{display:none}
+figcaption:has(.boot-controls){padding-top:0;min-height:44px}
 .gallery-footer{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;position:relative;margin-top:12px;flex-wrap:wrap}
 .gallery-footer>p{width:100%;font-size:8px;line-height:12px;color:var(--muted)}
 .more-screens{display:contents}
@@ -81,9 +86,10 @@ h2{font-size:32px;line-height:1.25}
 h3{font-size:16px;line-height:1.5;color:var(--ink)}
 .feature-grid p{font-size:16px;line-height:1.5;color:var(--muted);margin-top:8px}
 .downloads-section{padding-block:24px}
-.download-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:16px}
-.download-card{border:2px solid var(--line);border-top:4px solid var(--green);padding:20px;min-width:0}
+.download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:16px}
+.download-card{display:grid;grid-template-rows:auto 1fr auto auto auto;border:2px solid var(--line);border-top:4px solid var(--green);padding:20px;min-width:0}
 .download-card[data-build=pocket]{border-top-color:var(--pocket)}
+.download-card[data-build=ham]{border-top-color:var(--pink)}
 .download-heading{display:flex;align-items:center;gap:12px;min-height:32px;flex-wrap:wrap}
 .download-heading h3{font-size:24px}
 .download-heading .swatch{width:20px;height:20px;flex-basis:20px}

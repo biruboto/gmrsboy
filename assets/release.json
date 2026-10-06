@@ -1,14 +1,24 @@
 {
-  "release": "1.1",
+  "release": "1.2",
   "baseFirmware": "250317",
   "hardware": "Original TIDRADIO TD-H3",
   "releases": [
     {
-      "id": "unified",
+      "id": "gmrs",
       "name": "GMRS Boy",
-      "version": "GMRS_BOYv1.1",
-      "sha256": "3d1cb2fd2a066b6bba1f48f3915b9778356b751d2e166fbd906b4ce44ff4cef7",
-      "file": "GMRS_BOYv1.1.BIN",
+      "version": "GMRS_BOYv1.2",
+      "menuVersion": "GMRS_BOYv1.2",
+      "sha256": "f24e669f439a069dced68ac70ab8ffa2d23024a1550d9dfc186ab3930c3ac3ff",
+      "file": "GMRS_BOYv1.2.BIN",
+      "bytes": 63486
+    },
+    {
+      "id": "ham",
+      "name": "HAM Boy",
+      "version": "HAM_BOYv1.2",
+      "menuVersion": "HAM_BOYv1.2",
+      "sha256": "629302e313f288801a2462bd80fd0673761b6a7ed7154a7f6033653059509f5f",
+      "file": "HAM_BOYv1.2.BIN",
       "bytes": 63486
     }
   ],
@@ -28,6 +38,11 @@
     "Dark"
   ],
   "paletteMenu": 57,
+  "bootVariants": [
+    "gmrs",
+    "ham"
+  ],
+  "bootIntervalMs": 2000,
   "previewNote": "Firmware-rendered sample states, not hardware photographs. Actual panel colors vary.",
   "sampleStates": {
     "main": "VFO A up-marker",
